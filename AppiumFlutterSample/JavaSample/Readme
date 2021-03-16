@@ -1,0 +1,11 @@
+1. Add dependency Pro.truongsinh:
+run script:
+mvn install:install-file -Dfile=./appium-flutter-finder-0.0.4.jar -DgroupId=pro.truongsinh  -DartifactId=appium-flutter-finder -Dversion=0.0.4 -Dpackaging=jar
+
+2. Add new dependency :
+<dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-serialization-runtime</artifactId>
+            <version>0.14.0</version>
+            <scope>runtime</scope>
+</dependency>
