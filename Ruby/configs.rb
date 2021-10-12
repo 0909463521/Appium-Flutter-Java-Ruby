@@ -1,5 +1,5 @@
-USER_NAME = "kobitonadmin"
-API_KEY = "2b66e428-b4a0-478c-909c-780b9f1f13bc"
+USER_NAME = "*"
+API_KEY = "*"
 
 class DesiredCapabilities
  

@@ -9,9 +9,9 @@ import java.io.File;
 import java.net.URL;
 
 public class Config {
-    static String USERNAME = "kobitonadmin";
-    static String API_KEY = "c6d29894-9633-41ec-8346-dd77029998ab";
-    static String HOST = "@api-test.kobiton.com/wd/hub";
+    static String USERNAME = "*";
+    static String API_KEY = "*";
+    static String HOST = "*";
     public static final URL kobitonServerUrl(){
         try {
             String tmp = "https://"+USERNAME+":"+API_KEY+HOST;
